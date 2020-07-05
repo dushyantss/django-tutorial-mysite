@@ -14,7 +14,9 @@ lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via pylint
 pathspec==0.8.0           # via black
 pip-tools==5.2.1          # via -r dev-requirements.in
-pylint==2.5.3             # via -r dev-requirements.in
+pylint-django==2.0.15     # via -r dev-requirements.in
+pylint-plugin-utils==0.6  # via pylint-django
+pylint==2.5.3             # via -r dev-requirements.in, pylint-django, pylint-plugin-utils
 regex==2020.6.8           # via black
 six==1.15.0               # via astroid, pip-tools
 toml==0.10.1              # via black, pylint
